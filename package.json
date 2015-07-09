@@ -1,16 +1,12 @@
 {
-	"name": "dust-loader",
-	"version": "1.0.1",
-	"description": "dustjs loader module for webpack",
-	"author": "Valentin Agachi",
-	"main": "index.js",
-	"peerDependencies": {
-		"dustjs-linkedin": "*"
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://www.opensource.org/licenses/mit-license.php"
-		}
-	]
+  "name": "dust-named-loader",
+  "version": "1.0.0",
+  "description": "dustjs loader module for webpack, with support for naming the template",
+  "author": "Jordan Gensler",
+  "main": "index.js",
+  "dependencies": {
+    "dustjs-linkedin": "*",
+    "loader-utils": "^0.2.10"
+  },
+  "license": "MIT"
 }
